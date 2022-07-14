@@ -1,0 +1,148 @@
+/*******************************************************
+ *
+ * Reset Stylings
+ *
+ * *****************************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*******************************************************
+ *
+ * Main Stylings
+ *
+ * *****************************************************/
+html {
+	background: url("../img/background.jpeg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: none;
+}
+
+body {
+	padding: 100px 0 0 50px;
+}
+
+header {
+	color: #333;
+	font-size: 1.5em;
+	text-shadow: 1px 1px #CCC;
+}
+
+header h1 {
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+main {
+	padding-top: 100px;
+	color: #FFF;
+	text-shadow: 1px 1px #333;
+	font-size: 1.5em;
+}
+
+#guestbookForm {
+	width: 45%;
+	float: left;
+}
+
+form {
+	padding-top: 25px;
+}
+
+form div {
+	padding: 5px 0;
+}
+
+form label {
+	display: inline-block;
+	width: 25%;
+}
+
+form input {
+	width: 70%;
+	height: 2em;
+}
+
+form textarea {
+	width: 70%;
+	height: 5em;
+}
+
+form button {
+	width: 97.5%;
+	height: 2em;
+	background: #999;
+	color: #FFF;
+	font-size: 1em;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+form button:hover {
+	background: #000;
+	color: #FFF;
+}
+
+#responses {
+	margin-left: 700px;
+	width: 45%;
+}
+
+.response {
+	padding-bottom: 15px;
+}
+
+.response .name {
+	text-decoration: underline;
+}
+
+.response .comment {
+	padding-left: 10px;
+}
